@@ -1,2 +1,2 @@
 # COEN4800
-Networks and Security
+Source code examples in C used for Networks and Security course. All source code compiles and executes on an Ubuntu 24.04 LTS server shared by students for the class. Includes UDP client-server example, TCP client-server example, TLS client-server example (with OpenSSL). Also includes examples to send RFC 5424 compliant SYSLOG messages using UDP, TCP and TLS to Ubuntu 24.04 LTS syslog server. For the class, SPLUNK is used to ingest SYSLOG content on the Ubuntu server and students use SPLUNK for analyzing log files. Fred J. Frigo, Marquette Univerity, 11-Dec-2024.
