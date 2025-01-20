@@ -1,6 +1,6 @@
 /* test.c - simple C program
    @MarquetteU
-   COEN 4840
+   COEN 4800
    To compile: gcc test.c -o test
 */
 
