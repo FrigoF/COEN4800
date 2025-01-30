@@ -1,7 +1,7 @@
 // server.c - Example of TCP/IP Server using sockets
-//            COEN 4840
-//            02-Feb-2020 - terminate on message “exit” from client
-//            15-Apr-2023 - terminate after receiving any message from client
+//   Marquette University 
+//   Fred J. Frigo
+//   15-Apr-2023 - terminate after receiving any message from client
 //
 // See:  https://www.geeksforgeeks.org/tcp-server-client-implementation-in-c/
 //
