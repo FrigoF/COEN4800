@@ -1,6 +1,6 @@
 // tsyslog.c - Send message to remote TCP/IP SYSLOG server
 //
-//     Marquette University - COEN 4840
+//     Marquette University 
 //     Fred J. Frigo
 //     18-Mar-2021
 //
