@@ -1,6 +1,6 @@
 // usyslog.c - Send message to remote UDP SYSLOG server
 //
-//     Marquette University - COEN 4840
+//     Marquette University
 //     Fred J. Frigo
 //     18-Mar-2021
 //
