@@ -1,6 +1,6 @@
 //  TLSsyslog.c - send message to TLS SYSLOG server 
 //
-//  Marquette University - COEN 4840
+//  Marquette University 
 //  Fred J. Frigo
 //  15-Feb-2020
 //  09-May-2023  - Updates for RFC 5424 message format
