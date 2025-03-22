@@ -1,7 +1,10 @@
 // fred.js - RESTful API server using TLS
 // @MarquetteU   F Frigo  09-Feb-2022
 //
-// To start server:  $ node fred.js
+// To configure & start server: 
+//	$ npm init
+//	$ npm install express --save 
+//      $ node fred.js
 // For client use web browser:  https://bloomcounty.eng.mu.edu:3000/fred
 //
 const fs = require('fs');
