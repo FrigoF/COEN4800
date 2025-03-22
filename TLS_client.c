@@ -7,7 +7,7 @@
 // 06-May-2023 - Updated to send message to server 
 //
 //  To install OpenSSL see INSTALL at https://www.openssl.org/source/
-//  To compile: gcc -Wall -o TLS_client TLS_client.c -lssl -lcrypto -L/usr/local/lib
+//  To compile: gcc -Wall -o TLS_client TLS_client.c -lssl -lcrypto 
 //
 #include <stdio.h>
 #include <unistd.h>
