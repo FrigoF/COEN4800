@@ -57,7 +57,8 @@ void get_syslog_message( char *tls_syslog_msg)
     // RFC 3164 message 
     c_time_string = ctime(&current_time.tv_sec);
     strncpy(rfc3164_time, &c_time_string[4], 15);  // copy only characters needed
-    sprintf(rfc3164_syslog_msg, "<%d>%s %s TCP: RFC3164 message from %s: %s", pri, rfc3164_time, myHost, username, myMessage );
+    sprintf(rfc3164_syslog_msg, "<%d>%s %s TCP: RFC3164 message from %s: %s", 
+        pri, rfc3164_time, myHost, username, myMessage );
 
     // RFC 5425 message with NO Structured Data
     time = localtime(&current_time.tv_sec);
@@ -66,7 +67,8 @@ void get_syslog_message( char *tls_syslog_msg)
     pid = (int)getpid();
     usec = (int)current_time.tv_nsec/1000;
     sprintf(rfc5424_time,"%4.4d%c%2.2d%c%2.2dT%2.2d:%2.2d:%2.2d.%6.6d%+2.2d:%2.2d",
-       time->tm_year+1900, '-', time->tm_mon+1, '-', time->tm_mday, time->tm_hour, time->tm_min, time->tm_sec, usec, tz_hour, tz_min ); 
+       time->tm_year+1900, '-', time->tm_mon+1, '-', time->tm_mday, 
+       time->tm_hour, time->tm_min, time->tm_sec, usec, tz_hour, tz_min ); 
     sprintf(rfc5424_syslog_msg, "<%d>%d %s %s TLS %s %d %c RFC5424 message from %s: %s", 
        pri, version, rfc5424_time, myHost, "TLS_syslog", pid, '-', username,  myMessage );
 
