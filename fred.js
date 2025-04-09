@@ -1,7 +1,7 @@
-// fred.js - RESTful API server using TLS
+// fredfrigo.js - RESTful API server using TLS
 // @MarquetteU   F Frigo  09-Feb-2022
 //
-// To configure & start server: 
+// To configure & start server:
 //	$ npm init
 //	$ npm install express --save 
 //      $ node fred.js
@@ -14,7 +14,8 @@ const port = 3000
 const app = express();
 
 app.get('/fred', (req, res) => {
-  return res.send('Hello, fred!');
+  res.send('Hello, fred!');
+  return process.exit();
 });
 
 https
